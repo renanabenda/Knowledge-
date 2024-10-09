@@ -11,8 +11,13 @@ body {
 }
 
 #dress 
-{
-
+{ 
+    width:125px;
+    height:125px;
+    background-color:Salmon ;
+    font-size: 12em;
+    text-align: center;
+    font-family: Brush Script MT;
 }
 
 
