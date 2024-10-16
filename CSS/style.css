@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Norican&display=swap');
 
+div {
+    background-color: rgb(9, 9, 44);
+}
 h1 {
     margin-top: 2rem;
     font-family: 'Norican', cursive;
@@ -12,8 +15,6 @@ h1 {
         0 0 6px rgba(255, 255, 0, 0.4);   /* Darker yellow */
 }
     
-
-
 #Opening-text {
     padding: 1.2rem 2rem;
     color: rgb(255, 255, 122);
@@ -21,6 +22,7 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     animation: bounce 3s infinite;
+    background-color: transparent;
 }
 #insrtuctions{
     padding: 1.2rem 2rem;
@@ -29,6 +31,7 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     animation: bounce 3s infinite;
+    background-color: transparent;
     position: absolute;
     right: 5%;
     top:35%
@@ -189,6 +192,7 @@ ul li img {
 }
 
 .custom-radios {
+    background-color: transparent;
     display: flex;
     cursor:none;
     flex-direction: column;
@@ -201,6 +205,10 @@ ul li img {
 .custom-radios input[type="radio"] {
     display: none;
     cursor: none;
+}
+
+.custom-radios div {
+    background-color: transparent; /* Or any other color you prefer */
 }
 
 .custom-radios input[type="radio"] + label span {
