@@ -175,12 +175,7 @@ ul li img {
 }
 
 /* Special style for Fauda */
-#Fauda {
-    background-color: pink;
-    padding: 1.6rem 2rem;
-    padding-bottom: 3rem;
-	height: 3rem;;
-}
+
 :root {
     --color-0: red;
     --color-1: #db5e34;
